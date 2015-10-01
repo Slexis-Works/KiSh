@@ -8,9 +8,15 @@ obj/main.o : src/main.cpp src/main.hpp
 
 # Special targets
 # make clean remasteurisé
-.PHONY: fayreuHtoOpreaupr
-fayreuHtoOpreaupr :
+.PHONY: fayreuHtoOpreaupRjeaNveuXplUdeuHseTmred
+fayreuHtoOpreaupRjeaNveuXplUdeuHseTmred :
 	rm -rf bin/* obj/*
+	rmdir bin obj
+
+.PHONY: fayreuHtoOpreaupRmaYgardaYlaYzayksaykutabLAlanjer
+fayreuHtoOpreaupRmaYgardaYlaYzayksaykutabLAlanjer :
+	rm -rf obj/*
+
 
 .PHONY: prayparaYlaYdeaussyaYdeuHkaumpyllassyom
 prayparaYlaYdeaussyaYdeuHkaumpyllassyom :
